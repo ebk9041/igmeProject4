@@ -1,0 +1,135 @@
+html{
+    background-color:#1D2763;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+    min-height:100vh;
+    max-width:1000px;
+}
+
+header{
+    text-align: center;
+    padding:20px;
+    order:-1;
+    background-color:white;
+}
+
+div{
+    display:flex;
+    flex:1;
+}
+
+
+
+nav{
+    order:1;
+    color:white;
+    max-width: 300px;
+}
+
+main{
+    order:2;
+    flex:1;
+    min-width: 500px;
+}
+
+aside{
+    order:3;
+    max-width:200px;
+}
+img{
+    max-width:50%;
+}
+
+nav,main,aside{
+    margin:20px;
+}
+
+
+
+h1{
+    color:#1D2763;
+}
+
+h2{
+    color:white;
+}
+
+li{
+    list-style-type: none;
+    display:block;
+   align-content: center;
+}
+
+a{
+    background-color:rgb(39, 126, 126);
+    color:white;
+    text-decoration: none;
+    display:block;
+    padding:10px;
+    margin:10px;
+    width:200px;
+    height:25px;
+    border-radius:8px;
+    text-align: center;
+}
+
+a:hover{
+    background-color:rgb(68, 212, 212);
+}
+
+.links{
+    display:block;
+    align-content: center;
+}
+
+#monster{
+    padding:100px;
+}
+
+.background-change{
+   background-image: url("assets/sunny.png");
+}
+
+#travelmonster{
+    padding-top:450px;
+}
+
+.ui-state-default{
+    color:white;
+}
+
+.ui-state-highlight{
+    color:white;
+}
+
+button{
+    background-color:rgb(39, 126, 126);
+    color:white;
+    text-decoration: none;
+    display:block;
+    padding:20px;
+    margin:10px;
+    width:200px;
+    height:25px;
+    border-radius:8px;
+    text-align: center;
+
+}
+
+button:hover{
+    font-family: 'Nunito', sans-serif;
+    background-color:rgb(68, 212, 212);
+}
+
+p{
+    color:white;
+}
+
+#documentation{
+    color: white;
+}

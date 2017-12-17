@@ -1,0 +1,15 @@
+<svg id="bowtie" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ae1f24;
+      }
+    </style>
+  </defs>
+  <title>bowtie</title>
+  <rect class="cls-1" width="25" height="25"/>
+  <rect class="cls-1" x="50" width="25" height="25"/>
+  <rect class="cls-1" x="25" y="25" width="25" height="25"/>
+  <rect class="cls-1" y="50" width="25" height="25"/>
+  <rect class="cls-1" x="50" y="50" width="25" height="25"/>
+</svg>

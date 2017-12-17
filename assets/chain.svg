@@ -1,0 +1,19 @@
+<svg id="chain" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 125">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5ec3c;
+      }
+    </style>
+  </defs>
+  <title>chain</title>
+  <rect class="cls-1" width="25" height="25"/>
+  <rect class="cls-1" x="200" width="25" height="25"/>
+  <rect class="cls-1" x="25" y="25" width="25" height="25"/>
+  <rect class="cls-1" x="175" y="25" width="25" height="25"/>
+  <rect class="cls-1" x="50" y="50" width="25" height="25"/>
+  <rect class="cls-1" x="150" y="50" width="25" height="25"/>
+  <rect class="cls-1" x="75" y="75" width="25" height="25"/>
+  <rect class="cls-1" x="125" y="75" width="25" height="25"/>
+  <rect class="cls-1" x="100" y="100" width="25" height="25"/>
+</svg>

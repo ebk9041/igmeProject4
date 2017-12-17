@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monster Maker</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+  <style>
+  #draggable, #draggable2, #draggable3, #draggable4 { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+    $( "#draggable2" ).draggable();
+    $( "#draggable3" ).draggable();
+    $( "#draggable4" ).draggable();
+  } );
+  </script>
+  
+</head>
+<body>
+
+  <header>
+    <h1>Dress The Monster</h1>
+  </header>
+
+<div>
+  <nav>
+    <h2>Instructions</h2>
+
+    <p>Drag and drop the items from the list onto the monster to get him dressed for the day! </p>
+</nav>
+ 
+  <main>
+    <img src="assets/monster.svg" id="monster" alt="monster">
+  </main>
+
+  <aside>
+
+    <h2>Items</h2>
+
+    <div id="draggable" class="ui-widget-content">
+      <img src="assets/bowtie.svg" alt="bowtie">
+    </div>
+
+    <div id="draggable2" class="ui-widget-content">
+    <img src="assets/sunglasses.svg" alt="sunglasses">
+    </div>
+
+    <div id="draggable3" class="ui-widget-content">
+    <img src="assets/crown.svg" alt="sunglasses">
+    </div>
+    
+    <div id="draggable4" class="ui-widget-content">
+        <img src="assets/chain.svg" alt="sunglasses">
+        </div>
+
+    </aside>
+    </div>
+  </div>
+ 
+
+
+ 
+</body>
+</html>
